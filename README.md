@@ -1,2 +1,2 @@
-# Indian_flat
-made an INDIAN flag using HTML AND  CSS
+# Indian_Flag
+made an INDIAN flag using HTML AND CSS

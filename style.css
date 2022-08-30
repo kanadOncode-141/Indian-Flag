@@ -1,0 +1,155 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#flag{
+    width: 900px;
+    height: 600px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 10px #777;
+}
+
+.section{
+    height: 33.33%;
+    /* border: 1px solid black; */
+}
+#Saffron-the-Strength{
+    background-color: #FF9933;
+}
+#White-the-Peace{
+    padding: 4.5px;
+    background-color: #FFFFFF;
+}
+#Green-the-Growth{
+    background-color: #138808;
+}
+
+
+#ashok-chakra-the-wheel-of-development{
+    width: 190px;
+    height: 190px;
+    position: relative;
+    border: 8.5px solid #000080;
+    border-radius: 50%;
+    margin:  auto;
+}
+
+#ashok-chakra-the-wheel-of-development:before{
+    content: "";
+    position:absolute;
+    top: 74.25px;
+    left: 75.25px;
+    width: 20.5px;
+    height: 20.5px;
+    background-color: #000080;
+    border-radius: 50%;
+}
+.spoke{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top:82px;
+    left: 85px;
+    border-top: 3.125px solid transparent;
+    border-radius: 20px solid #000080;
+    border-bottom: 3.125px solid transparent;
+    transform-origin: 0 3.125px;
+}
+.spoke:before{
+    content: "";
+    position: absolute;
+    /* width: 50px; */
+    height: 0px;
+    top: -1.125px;
+    left: 13.5px;
+    border-top: 1.125px solid transparent;
+    border-left: 22.5px solid #000080;
+    border-bottom: 1.125px solid transparent;
+}
+
+.spoke:after{
+    content: "";
+    position: absolute;
+    width: 3.6px;
+    height: 3.6px;
+    top: 2.97px;
+    left: 34.2px;
+    background-color: #000080;
+    border-radius: 50px;
+
+}
+
+#spoke-one{
+    transform: rotate(0deg);
+}
+#spoke-two{
+    transform: rotate(15deg);
+}
+#spoke-three{
+    transform: rotate(30deg);
+}
+#spoke-four{
+    transform: rotate(45deg);
+}
+#spoke-five{
+    transform: rotate(60deg);
+}
+#spoke-six{
+    transform: rotate(75deg);
+}
+#spoke-seven{
+    transform: rotate(90deg);
+}
+#spoke-eight{
+    transform: rotate(105deg);
+}
+#spoke-nine{
+    transform: rotate(120deg);
+}
+#spoke-ten{
+    transform: rotate(135deg);
+}
+#spoke-eleven{
+    transform: rotate(150deg);
+}
+#spoke-twelve{
+    transform: rotate(165deg);
+}
+#spoke-thirteen{
+    transform: rotate(180deg);
+}
+#spoke-fourteen{
+    transform: rotate(195deg);
+}
+#spoke-fifteen{
+    transform: rotate(210deg);
+}
+#spoke-sixteen{
+    transform: rotate(225deg);
+}
+#spoke-seventeen{
+    transform: rotate(240deg);
+}
+#spoke-eighteen{
+    transform: rotate(255deg);
+}
+#spoke-nineteen{
+    transform: rotate(270deg);
+}
+#spoke-twenty{
+    transform: rotate(285deg);
+}
+#spoke-twentyOne{
+    transform: rotate(300deg);
+}
+#spoke-twentyTwo{
+    transform: rotate(315deg);
+}
+#spoke-twentyThree{
+    transform: rotate(330deg);
+}
+#spoke-twentyFour{
+    transform: rotate(345deg);
+}
