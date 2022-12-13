@@ -4,7 +4,16 @@
     box-sizing: border-box;
 }
 
-#flag{
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+#flag{   
     width: 900px;
     height: 600px;
     border: 1px solid black;
